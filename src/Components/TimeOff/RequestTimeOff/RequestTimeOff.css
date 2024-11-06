@@ -1,0 +1,99 @@
+.request-timeoff-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+}
+
+.request-timeoff-container svg{
+  margin-right: 8px;
+}
+
+.request-timeoff-container h3{
+  align-items: baseline;
+}
+
+.form-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.request-timeoff-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+
+}
+
+.request-timeoff-form label {
+  margin-bottom: 10px;
+}
+
+.request-timeoff-form select,
+.request-timeoff-form input,
+.request-timeoff-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.request-timeoff-container button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.request-timeoff-container button:hover {
+  background-color: #234c57;
+}
+
+.warning {
+  color: #b43f3f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-section {
+  flex: 0.5;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: fit-content;
+}
+.leave-policies-container{
+  flex: 0.5;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: fit-content;
+  margin-bottom: 8px;
+}
+
+.leave-policies-container li{
+  margin: 8px;
+}
+
+.leave-balance-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.leave-balance-item {
+  margin-bottom: 10px;
+}
+
+.leave-balance-item p {
+  font-size: 16px;
+}

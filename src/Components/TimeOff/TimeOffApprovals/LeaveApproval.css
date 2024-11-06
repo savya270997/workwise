@@ -1,0 +1,107 @@
+.leave-approval-container {
+    margin: 20px;
+  }
+  
+  .leave-approval-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-approval-table th,
+  .leave-approval-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .leave-approval-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .leave-approval-table td {
+    font-size: 14px;
+  }
+  
+  .action-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  .approve {
+    color: green;
+  }
+  
+  .reject {
+    color: red;
+  }
+  
+  .pagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .pagination-icon.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  
+ .modal {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .leave-approval-container  .modal-overlay {
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leave-approval-container  .modal textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .leave-approval-container  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leave-approval-container  .reject-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .leave-approval-container  .cancel-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

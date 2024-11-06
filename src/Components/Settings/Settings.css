@@ -1,0 +1,75 @@
+.settings-container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .settings-sidebar {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .settings-sidebar button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .settings-sidebar button:hover{
+    filter: brightness(1.5);
+  }
+  
+  .settings-sidebar button.active {
+    filter: brightness(1.5);
+  }
+  
+  .settings-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-btn {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .save-btn:hover{
+    filter: brightness(1.5);
+  }

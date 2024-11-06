@@ -1,0 +1,96 @@
+.payroll-dashboard-container {
+    padding: 20px;
+  }
+  
+  .payroll-dashboard-container h1 {
+    text-align: left;
+    color: #2c3e50;
+  }
+  
+  .payroll-stats {
+    display: flex;
+   gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stat-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .dollar-icon {
+    color: #28a745;
+  }
+  
+  .user-icon {
+    color: #17a2b8;
+  }
+  
+  .clock-icon {
+    color: #ffc107;
+  }
+  
+  .chart-icon {
+    color: #6f42c1;
+  }
+  
+  .bonus-icon {
+    color: #f4a261; /* Orange for Bonuses */
+  }
+  
+  .calendar-icon {
+    color: #2a9d8f; /* Green for Next Payroll Date */
+  }
+  
+  .error-icon {
+    color: #e76f51; /* Red for Payroll Errors */
+  }
+  
+  .approval-icon {
+    color: #264653; /* Dark Blue for Pending Approvals */
+  }
+  
+
+  .stat-card  h3 {
+    color: #34495e;
+  }
+  
+  .stat-card  p {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .chart-section {
+    margin-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;    
+    transition: transform 0.3s ease;
+  }
+  
+  .chart-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  .chart-container{
+    display: flex;
+    justify-content: space-around;
+  }

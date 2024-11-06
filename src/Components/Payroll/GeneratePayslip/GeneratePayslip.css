@@ -1,0 +1,44 @@
+.payslip-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.payslip-header, .payslip-employee-details, .payslip-earnings, .payslip-deductions, .payslip-totals {
+  margin-bottom: 20px;
+}
+
+.payslip-header {
+  text-align: center;
+}
+
+.payslip-employee-details p, .payslip-totals p {
+  margin: 5px 0;
+}
+
+.payslip-earnings table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payslip-earnings table, .payslip-earnings th, .payslip-earnings td {
+  border: 1px solid black;
+}
+
+.payslip-earnings th,.payslip-earnings td {
+  padding: 8px;
+  text-align: center;
+}
+
+.payslip-earnings th {
+  background-color: #f2f2f2;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+}

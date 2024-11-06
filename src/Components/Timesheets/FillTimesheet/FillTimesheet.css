@@ -1,0 +1,261 @@
+/* FillTimesheet.css */
+
+.timesheet-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timesheet-group{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.week-navigation{
+  display: flex;
+    justify-content: space-between;
+}
+
+.timesheet-group h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.summary h4,.week-navigation span{
+  background-color: #f2f3f7;
+  border-radius: 0.75em;
+  cursor: pointer;
+  transition: ease 0.2s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1.5px solid #f2f3f7;
+  padding: 10px;
+  font-weight: 600;
+  margin: 8px;
+}
+
+.week-navigation span{
+  font-size:16px ;
+}
+
+.summary h4:hover{
+  background-color: #d3ddf1;
+  border: 1.5px solid #1677ff;
+}
+
+.timesheet-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.timesheet-table th,
+.timesheet-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.timesheet-table th {
+  background-color: #f4f4f4;
+}
+
+.timesheet-table input {
+  width: 60px;
+  text-align: center;
+}
+
+.notes-section {
+  margin-bottom: 20px;
+}
+
+.notes-section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.save-btn {
+  background-color: #4CAF50; /* Green */
+}
+
+.submit-btn {
+  background-color: #008CBA; /* Blue */
+}
+
+.add-btn {
+  background-color: #f39c12; /* Orange */
+}
+
+.add-btn, .save-btn, .submit-btn {
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover, .save-btn:hover, .submit-btn:hover {
+  opacity: 0.8;
+}
+
+.timesheet-container .form-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.timesheet-container .form-container h3 {
+  margin-bottom: 20px;
+}
+
+.timesheet-container .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.timesheet-container .form-container label {
+  margin-bottom: 10px;
+}
+
+.timesheet-container .form-container select, 
+.timesheet-container .form-container input, 
+.timesheet-container .form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.timesheet-container .form-container button {
+  padding: 10px;
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timesheet-container .form-container button:hover {
+  opacity: 0.8;
+}
+
+.timesheet-graph {
+  width: 50%;
+}
+
+.timesheet-graph h3 {
+  margin-bottom: 20px;
+}
+
+/* Modal Styles */
+.timesheet-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.timesheet-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timesheet-modal h3 {
+  margin-top: 0;
+}
+
+.timesheet-modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.timesheet-modal label {
+  margin-bottom: 10px;
+}
+
+.timesheet-modal input,
+.timesheet-modal select,
+.timesheet-modal textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.timesheet-modal button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timesheet-modal button:hover {
+  opacity: 0.8;
+}
+
+.timesheet-modal .cancel-btn {
+  background-color: #f44336; /* Red */
+}
+
+.timesheet-modal .cancel-btn:hover {
+  background-color: #e53935;
+}
+
+.green-color{
+  color: #4CAF50;
+}
+
+.red-color{
+  color: #e53935;
+}
+
+.error {
+  background-color: #FEE;
+  border: 1px solid red;
+  color: red;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+}

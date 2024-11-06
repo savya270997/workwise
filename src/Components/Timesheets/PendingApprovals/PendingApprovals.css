@@ -1,0 +1,115 @@
+.pending-approvals-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .pending-approvals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .pending-approvals-table th,
+  .pending-approvals-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .hours-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .red-badge {
+    background-color: red;
+  }
+  
+  .green-badge {
+    background-color: green;
+  }
+  
+  .orange-badge {
+    background-color: orange;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    font-weight: bold;
+  }
+  
+  .btn-approve,
+  .btn-reject {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .btn-approve {
+    background-color: green;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  .btn-reject {
+    background-color: red;
+    color: white;
+  }
+  
+  .approval-modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 25%;
+  }
+  
+  .approval-modal-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  bottom: 0;
+  }
+  
+  .approval-modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .approval-modal textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .btn-secondary {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+  }

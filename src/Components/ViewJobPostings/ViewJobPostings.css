@@ -1,0 +1,73 @@
+/* ViewJobPostings.css */
+
+.view-job-postings-container {
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--light-gray-color);
+    border: 1px solid #ddd;
+    max-width: 80px;
+    color: black;
+    
+}
+
+.tab.active {
+    background-color: var(--primary-color);
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.job-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.job-list th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.job-list td {padding: 8px;
+    text-align: left;}
+
+.job-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.job-list tr:hover {
+    background-color: var(--light-gray-color);
+}
+
+.menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.menu button {
+    display: block;
+    padding: 8px 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+
+.menu button:hover {
+    background-color: #f0f0f0;
+}

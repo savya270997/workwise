@@ -1,0 +1,62 @@
+.employee-profile-setup {
+    color: #333;
+    padding: 20px;
+  }
+  
+  .progress-bar {
+    height: 5px;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step h2 {
+    color: var(--primary-color);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="url"], input[type="file"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-buttons {
+    margin-top: 20px;
+  }
+  
+  .form-buttons button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .form-buttons button:hover {
+    background-color: #5a3d7e;
+  }
+
+  .employee-profile-setup form{
+    width:fit-content;
+    margin: 0 auto;
+  }

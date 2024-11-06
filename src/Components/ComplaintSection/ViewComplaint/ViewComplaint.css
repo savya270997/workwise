@@ -1,0 +1,99 @@
+/* Container for the complaints overview */
+.view-complaint-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the page */
+.view-complaint-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the table */
+.view-complaint-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header styling */
+.view-complaint-container th {
+  background-color: #f4f4f4;
+  padding: 5px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table cell styling */
+.view-complaint-container td {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styling for table rows */
+.view-complaint-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.view-complaint-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Status pill styling */
+.view-complaint-container span {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+/* Action button styling */
+.view-complaint-container button {
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+}
+
+/* Icon styling */
+.view-complaint-container button svg {
+  transition: color 0.3s;
+}
+
+.view-complaint-container button:hover svg {
+  color: #007bff;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination-controls button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-size: 16px;
+  color: var(--primary-color);
+}

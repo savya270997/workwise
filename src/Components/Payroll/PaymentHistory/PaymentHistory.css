@@ -1,0 +1,22 @@
+.payment-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .payment-history table, .payment-history th, .payment-history td {
+    border: 1px solid #ddd;
+  }
+  
+  .payment-history th,.payment-history td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .payment-history th {
+    background-color: #f2f2f2;
+  }
+  
+  .payment-history tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

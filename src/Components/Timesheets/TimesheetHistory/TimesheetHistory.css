@@ -1,0 +1,52 @@
+.timesheet-history-container {
+    width: 100%;
+    padding: 20px;
+    padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  width: 95%;
+  margin: 5% auto;
+  }
+  
+  .timesheet-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .timesheet-history-table th, .timesheet-history-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .timesheet-history-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .status-badge {
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .green-badge {
+    background-color: green;
+    border: 1px solid var(--primary-color);
+
+  }
+  
+  .red-badge {
+    background-color: red;
+    border: 1px solid var(--primary-color);
+
+  }
+  
+  .yellow-badge {
+    background-color: #F9C70C;
+    color: black;
+    border: 1px solid var(--primary-color);
+  }

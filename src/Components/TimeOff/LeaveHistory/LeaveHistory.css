@@ -1,0 +1,61 @@
+.leave-history-container {
+    margin: 20px;
+  }
+  
+  .leave-history-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leave-history-table th,
+  .leave-history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .leave-history-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .leave-history-table td {
+    font-size: 14px;
+  }
+  
+  .status-pill {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .status-approved {
+    background-color: green;
+  }
+  
+  .status-rejected {
+    background-color: red;
+  }
+  
+  .status-pending {
+    background-color: var(--tertiary-color);
+  }
+  
+  .pagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .pagination-icon.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
